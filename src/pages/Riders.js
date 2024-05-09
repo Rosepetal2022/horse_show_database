@@ -1,13 +1,12 @@
-import { owner_data } from '../utils/sampleData';
+import { rider_data } from '../utils/sampleData';
 import { FaEdit } from "react-icons/fa";
 import { FaDeleteLeft } from "react-icons/fa6";
 
 
-
-function Owner() {
+function Rider() {
     return (
         <>
-        <h2>View/Edit/Delete Owners</h2>
+        <h1>Add/Edit/Delete Riders</h1>
         <div className="table-padding">
             <table className="table table-striped table-dark">
                 <thead>
@@ -22,13 +21,13 @@ function Owner() {
                     </tr>
                 </thead>
                 <tbody>
-                    {owner_data.map((owner, index) => (
+                    {rider_data.map((rider, index) => (
                         <tr key={index}>
                             <th scope="row">{index + 1}</th>
-                            <td>{owner.firstName}</td>
-                            <td>{owner.lastName}</td>
-                            <td>{owner.email}</td>
-                            <td>{owner.address}</td>
+                            <td>{rider.firstName}</td>
+                            <td>{rider.lastName}</td>
+                            <td>{rider.email}</td>
+                            <td>{rider.address}</td>
                             <td><button className="btn btn-primary btn-sm" ><FaEdit /></button></td>
                             <td><button className="btn btn-danger btn-sm ml-1"><FaDeleteLeft /></button></td> 
                         </tr>
@@ -40,4 +39,4 @@ function Owner() {
     );
 };
 
-export default Owner;
+export default Rider;

@@ -1,9 +1,11 @@
 import { horseShows_data } from '../utils/sampleData';
+import { FaEdit } from "react-icons/fa";
 
 
 function HorseShows() {
     return (
         <>
+        <h1>View All Horse Shows</h1>
         <div className="table-padding">
         <table className="table table-striped table-dark">
             <thead>
@@ -14,6 +16,7 @@ function HorseShows() {
                     <th scope="col">Location</th>
                     <th scope="col">Prize Money Offered</th>
                     <th scope="col"># of Horses Entered</th>
+                    <th scope="col">Edit</th>
                 </tr>
             </thead>
             <tbody>
@@ -25,6 +28,7 @@ function HorseShows() {
                         <td>{horseShow.location}</td>
                         <td>{horseShow.moneyOffered}</td>
                         <td>{horseShow.horsesEntered}</td>
+                        <td><button className="btn btn-primary btn-sm" ><FaEdit /></button></td>
                     </tr>
                 ))}
             </tbody>

@@ -26,6 +26,12 @@ function NavBar() {
                         <li class="nav-item active">
                             <Link class="nav-link" to="/horseShows">Horse Shows</Link>
                         </li>
+                        <li class="nav-item active">
+                            <Link class="nav-link" to="/horseAndRider">Horses And Riders</Link>
+                        </li>
+                        <li class="nav-item active">
+                            <Link class="nav-link" to="/bets">Placed Bets</Link>
+                        </li>
                     </ul>
                 </div>
             </nav>
