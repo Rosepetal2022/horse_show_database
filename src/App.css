@@ -1,3 +1,32 @@
 .table-padding {
   padding: 2em 2em 2em;
 }
+
+
+.form-background {
+  background: lightgrey;
+  padding: 2%;
+}
+
+.form-padding {
+  padding: 2%;
+}
+
+.form-size {
+  display: flex;
+  width: 40%;
+  margin: 2em 2em 2em;
+}
+
+h2 {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  padding: 10%;
+  font-size: 1.25rem;
+}

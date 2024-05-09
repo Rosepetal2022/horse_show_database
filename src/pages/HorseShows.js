@@ -5,7 +5,7 @@ import { FaEdit } from "react-icons/fa";
 function HorseShows() {
     return (
         <>
-        <h1>View All Horse Shows</h1>
+        <h2>View All Horse Shows</h2>
         <div className="table-padding">
         <table className="table table-striped table-dark">
             <thead>

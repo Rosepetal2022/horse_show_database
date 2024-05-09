@@ -18,6 +18,9 @@ function NavBar() {
                             <Link class="nav-link" to="/horses">Horses</Link>
                         </li>
                         <li class="nav-item active">
+                            <Link class="nav-link" to="/riders">Riders</Link>
+                        </li>
+                        <li class="nav-item active">
                             <Link class="nav-link" to="/owner">Owners</Link>
                         </li>
                         <li class="nav-item active">
