@@ -63,6 +63,22 @@ function Horse() {
           <label htmlFor="prizeMoney">Prize Money</label>
           <input type="text" className="form-control" id="prizeMoney" defaultValue="Prize Money" />
         </div>
+        <div className="form-group form-padding">
+          <label htmlFor="name">Owner First Name</label>
+          <input type="text" className="form-control" id="name" defaultValue="Owner First Name" />
+        </div>
+        <div className="form-group form-padding">
+          <label htmlFor="name">Owner Last Name</label>
+          <input type="text" className="form-control" id="name" defaultValue="Owner Last Name" />
+        </div>
+        <div className="form-group form-padding">
+          <label htmlFor="name">Rider First Name</label>
+          <input type="text" className="form-control" id="name" defaultValue="Rider First Name" />
+        </div>
+        <div className="form-group form-padding">
+          <label htmlFor="name">Rider Last Name</label>
+          <input type="text" className="form-control" id="name" defaultValue="Rider Last Name" />
+        </div>
         <button type="submit" className="btn btn-primary">Add</button>
       </form>
     </div>
@@ -90,6 +106,22 @@ function Horse() {
         <div className="form-group form-padding">
           <label htmlFor="prizeMoney">Prize Money</label>
           <input type="text" className="form-control" id="prizeMoney" defaultValue="Prize Money" />
+        </div>
+        <div className="form-group form-padding">
+          <label htmlFor="name">Owner First Name</label>
+          <input type="text" className="form-control" id="name" defaultValue="Owner First Name" />
+        </div>
+        <div className="form-group form-padding">
+          <label htmlFor="name">Owner Last Name</label>
+          <input type="text" className="form-control" id="name" defaultValue="Owner Last Name" />
+        </div>
+        <div className="form-group form-padding">
+          <label htmlFor="name">Rider First Name</label>
+          <input type="text" className="form-control" id="name" defaultValue="Rider First Name" />
+        </div>
+        <div className="form-group form-padding">
+          <label htmlFor="name">Rider Last Name</label>
+          <input type="text" className="form-control" id="name" defaultValue="Rider Last Name" />
         </div>
         <button type="submit" className="btn btn-primary">Save changes</button>
       </form>
