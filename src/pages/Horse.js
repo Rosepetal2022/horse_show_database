@@ -16,7 +16,6 @@ function Horse() {
               <th scope="col">Age</th>
               <th scope="col">Discipline</th>
               <th scope="col">Prize Money</th>
-              <th scope="col">Rider</th>
               <th scope="col">Owner</th>
               <th scope="col">Delete</th>
             </tr>
@@ -30,7 +29,6 @@ function Horse() {
                 <td>{horse.age}</td>
                 <td>{horse.discipline}</td>
                 <td>{horse.prizeMoney}</td>
-                <td>{horse.RfirstName} {horse.RlastName}</td>
                 <td>{horse.OfirstName} {horse.OlastName}</td>
                 <td><button className="btn btn-danger btn-sm ml-1"><FaDeleteLeft /></button></td>
               </tr>
